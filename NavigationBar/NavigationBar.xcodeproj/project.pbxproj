@@ -15,6 +15,7 @@
 		B22A5EE61E5B1326000F6251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22A5EE41E5B1326000F6251 /* LaunchScreen.storyboard */; };
 		B22A5EF11E5B1326000F6251 /* NavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A5EF01E5B1326000F6251 /* NavigationBarTests.m */; };
 		B22A5EFC1E5B1326000F6251 /* NavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A5EFB1E5B1326000F6251 /* NavigationBarUITests.m */; };
+		B22A5F0B1E5B1818000F6251 /* ExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A5F0A1E5B1818000F6251 /* ExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B22A5EF71E5B1326000F6251 /* NavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22A5EFB1E5B1326000F6251 /* NavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarUITests.m; sourceTree = "<group>"; };
 		B22A5EFD1E5B1326000F6251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22A5F091E5B1818000F6251 /* ExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleView.h; sourceTree = "<group>"; };
+		B22A5F0A1E5B1818000F6251 /* ExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		B22A5ED51E5B1326000F6251 /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				B22A5F091E5B1818000F6251 /* ExampleView.h */,
+				B22A5F0A1E5B1818000F6251 /* ExampleView.m */,
 				B22A5ED91E5B1326000F6251 /* AppDelegate.h */,
 				B22A5EDA1E5B1326000F6251 /* AppDelegate.m */,
 				B22A5EDC1E5B1326000F6251 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				B22A5EDE1E5B1326000F6251 /* ViewController.m in Sources */,
 				B22A5EDB1E5B1326000F6251 /* AppDelegate.m in Sources */,
 				B22A5ED81E5B1326000F6251 /* main.m in Sources */,
+				B22A5F0B1E5B1818000F6251 /* ExampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +511,7 @@
 				B22A5F021E5B1326000F6251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B22A5F031E5B1326000F6251 /* Build configuration list for PBXNativeTarget "NavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				B22A5F051E5B1326000F6251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B22A5F061E5B1326000F6251 /* Build configuration list for PBXNativeTarget "NavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				B22A5F081E5B1326000F6251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

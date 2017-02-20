@@ -1,14 +1,14 @@
 //
 //  ViewController.h
-//  NavigationBar
+//  testNavigation
 //
-//  Created by mathewchen on 17/2/20.
-//  Copyright © 2017年 mathewchen. All rts reserved.
+//  Created by mathewchen on 17/2/16.
+//  Copyright © 2017年 mathewchen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 
 
 @end
